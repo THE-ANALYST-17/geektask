@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  max-height: 200vh;
+}
+.header {
+  height: 41%;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1634635720982-88d440c3f4a7?ixid=MnwxMjA3fDB8MHxwaG90by1vZi10aGUtZGF5fHx8fGVufDB8fHx8&ixlib=rb-1.2.1&dpr=1&auto=format%2Ccompress&fit=crop&w=1399&h=594');
+  padding-bottom: 4%;
+}
+.welcome{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 10%;
+    
+}
+picture{
+    width: fill;
+    height: fill;
+}
+.text {
+  width: 90%;
+  font-size: 550%;
+  text-align: center;
+  color: azure;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: x-large;
+}
+.input-group .Search, .button{
+    font-size: x-large;
+    border-radius: 22%;
+
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+.body {
+  width: 100%;
+  height: 75%;
+  background-color: blanchedalmond;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: brown;
+}
+.gallery_thumb{
+    margin: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.gallery{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: x-large;
+    color: #fff;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 2px;
+    transition: 1.9s;
+    justify-content: center;
+    align-items: center;
+}
+.gallery_thumb .label{
+    
+    bottom: 8px;
+    left: 16px;
+    opacity: 0;
+}
+.gallery_thumb:hover div{
+    background: linear-gradient(90deg, rgba(154,153,170,1) 0%, rgba(0,0,0,1) 100%);
+    opacity: 100%;
+   
+}
+.gallery_thumb:hover{
+    transform: scale(108%);
+    transition: all ease-in-out 0.7s;
+}
+.icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 9%;
+    bottom: 8px;
+    right: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet"  href="./index.css"/>
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <div class="container">      
+        <div class="header">
+            <div class="welcome">
+                <div class="text">
+                    Welcome to Gallery
+                </div>
+            </div>
+           
+           <div class="search">
+            <form class="input-group" onsubmit="getImages(event)">
+                <input type="text" class="Search" placeholder="Search.." required/>
+                <button class="button" type="submit">
+                    <i class="fas fa-search fa-1x">
+                    </i></button>
+            </form>
+               
+           </div>
+
+        </div>
+        <div class="body">
+            <div id = "gallery" class="gallery"></div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
